@@ -5,13 +5,14 @@
 #include <vector>
 
 class FileCacheManager : public CacheManager {
+    hash<string> hashFunc;
 public:
     FileCacheManager();
-    bool isInCache(string prob) override;
-    string getSolution(string prob) override;
-    void setSolution(string prob, string solution) override;
-    void saveToDisk(string prob, string solution) override;
-    void loadDataMap();
+    bool isInCache(string prob);
+    string getSolution(string prob);
+    void setSolution(string prob, string solution);
+    ~FileCacheManager();
+
 };
 
 
