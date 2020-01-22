@@ -7,11 +7,11 @@
 class FileCacheManager : public CacheManager {
     hash<string> hashFunc;
 public:
-    FileCacheManager();
+    FileCacheManager(){}
     bool isInCache(string prob);
     string getSolution(string prob);
     void setSolution(string prob, string solution);
-    ~FileCacheManager();
+    ~FileCacheManager(){}
 
 };
 
