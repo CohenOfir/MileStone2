@@ -1,5 +1,5 @@
 # MileStone2
-Establish Serial&Parallel server, implement matrix search algorithms (A*, BestFirstSearch, BFS, DFS).
+Establish Serial&Parallel server, implement search algorithms (A*, BestFirstSearch, BFS, DFS).
 
 ## Installation
 
